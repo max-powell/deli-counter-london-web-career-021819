@@ -5,4 +5,5 @@ def line(array)
     sentence = ["The line is currently:"]
     array.each_with_index {|name, index|
     sentence.push("#{index + 1}. #{name}")}
+    sentence.join(' ')
 end

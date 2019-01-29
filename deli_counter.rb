@@ -20,4 +20,5 @@ def now_serving
   else
     next_customer = array.unshift
     puts "Currently serving #{next_customer}"
+  end
 end

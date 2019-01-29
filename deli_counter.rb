@@ -6,4 +6,5 @@ def line(array)
     array.each_with_index {|name, index|
     sentence.push("#{index + 1}. #{name}")}
     sentence.join(' ')
+  end
 end
